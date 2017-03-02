@@ -61,6 +61,6 @@ And we still can see CDC Serial Interface under Configuration #2 (not activated 
 So, main problem now is how to active configuration #2 
 
 ## How to change default configuration  
-Small program was created to support to change default configuation, refer to [f9c2971](https://github.com/trongvu/libusb/commit/f9c2971d8ca35f255b11f37998329b0c323f5d83)
-Prebuilt file can be downloaded [here](prebuilt/configuration_switcher)
+Small program was created to support to change default configuation, refer to [f9c2971](https://github.com/trongvu/libusb/commit/f9c2971d8ca35f255b11f37998329b0c323f5d83)  
+Prebuilt file can be downloaded from [here](prebuilt/configuration_switcher)
 
