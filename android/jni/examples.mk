@@ -132,3 +132,20 @@ LOCAL_SHARED_LIBRARIES += libusb1.0
 LOCAL_MODULE:= dpfp_threaded
 
 include $(BUILD_EXECUTABLE)
+
+
+# configuration_switcher
+
+include $(CLEAR_VARS)
+
+LOCAL_SRC_FILES := \
+  $(LIBUSB_ROOT_REL)/examples/configuration_switcher
+
+LOCAL_C_INCLUDES += \
+  $(LIBUSB_ROOT_ABS)
+
+LOCAL_SHARED_LIBRARIES += libusb1.0
+
+LOCAL_MODULE:= configuration_switcher
+
+include $(BUILD_EXECUTABLE)
