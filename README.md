@@ -1,5 +1,6 @@
 # Expose Serial interface via USB of Samsung Android
 For license, original usage ..., please refer [libusb](https://github.com/libusb/libusb)  
+This repo was forked to upload my small program based on libusb, which helps to change configuration of connected Samsung Android devices.  
 
 ## Why Samsung Android?
 Since my device is Samsung one, so I just do the test with this type only :)  
