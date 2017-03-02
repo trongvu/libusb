@@ -1,4 +1,5 @@
-# Expose Serial interface via USB of Samsung Android phone
+# Expose Serial interface via USB of Samsung Android
+For license, original usage ..., please refer [libusb](https://github.com/libusb/libusb)  
 
 ## Why Samsung Android?
 Since my device is Samsung one, so I just do the test with this type only :)  
