@@ -63,5 +63,6 @@ So, main problem now is how to active configuration #2
 
 ## How to change default configuration  
 Small program was created to support to change default configuation, refer to [f9c2971](https://github.com/trongvu/libusb/commit/f9c2971d8ca35f255b11f37998329b0c323f5d83)  
-Prebuilt file can be downloaded from [here](prebuilt/configuration_switcher)
-After running, CDC serial interface will be brought back without enabling USB debugging. You can issue AT command now :)
+Prebuilt file can be downloaded from [here](prebuilt/configuration_switcher)  
+After running, CDC serial interface will be brought back without enabling USB debugging. You can issue AT command now :)  
+I also commited other project, which helps to send AT command directly from Android to Android through OTG, called [ATCommander](https://github.com/trongvu/ATCommander), take a look.  
