@@ -146,6 +146,9 @@ LOCAL_C_INCLUDES += \
 
 LOCAL_SHARED_LIBRARIES += libusb1.0
 
+LOCAL_CFLAGS += -fPIE
+LOCAL_LDFLAGS += -fPIE -pie
+
 LOCAL_MODULE:= configuration_switcher
 
 include $(BUILD_EXECUTABLE)
