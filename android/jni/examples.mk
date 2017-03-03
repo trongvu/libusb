@@ -139,7 +139,7 @@ include $(BUILD_EXECUTABLE)
 include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES := \
-  $(LIBUSB_ROOT_REL)/examples/configuration_switcher
+  $(LIBUSB_ROOT_REL)/examples/configuration_switcher.c
 
 LOCAL_C_INCLUDES += \
   $(LIBUSB_ROOT_ABS)
